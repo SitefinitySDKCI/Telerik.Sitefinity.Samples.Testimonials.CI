@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestimonialsWebsite", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Sitefinity.Samples.Common", "..\Telerik.Sitefinity.Samples.Common\Telerik.Sitefinity.Samples.Common.csproj", "{CF03FB62-A8CC-42B4-9C81-87920C530D74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestimonialsUnitTests", "..\TestimonialsUnitTests\TestimonialsUnitTests.csproj", "{3259521D-61D7-4426-9CA6-1B4EACE98C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,12 @@ Global
 		{CF03FB62-A8CC-42B4-9C81-87920C530D74}.Release Pro|Any CPU.Build.0 = Release|Any CPU
 		{CF03FB62-A8CC-42B4-9C81-87920C530D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF03FB62-A8CC-42B4-9C81-87920C530D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Release Pro|Any CPU.ActiveCfg = Release|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Release Pro|Any CPU.Build.0 = Release|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3259521D-61D7-4426-9CA6-1B4EACE98C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
