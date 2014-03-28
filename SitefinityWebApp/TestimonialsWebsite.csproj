@@ -87,6 +87,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Windows" />
     <Reference Include="AjaxControlToolkit">
       <HintPath>..\Reference Assemblies\AjaxControlToolkit.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
@@ -139,7 +140,6 @@
       <HintPath>..\Reference Assemblies\Newtonsoft.Json.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="System.Windows" />
     <Reference Include="Telerik.OpenAccess.Web">
       <HintPath>..\Reference Assemblies\Telerik.OpenAccess.Web.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
