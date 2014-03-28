@@ -87,68 +87,251 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="AjaxControlToolkit"/>
-    <Reference Include="DirectShowLib-2005"/>
-    <Reference Include="DocumentFormat.OpenXml"/>
-    <Reference Include="Interop.DexterLib"/>
-    <Reference Include="Microsoft.Http"/>
-    <Reference Include="Microsoft.Http.Extensions"/>
-    <Reference Include="Microsoft.IdentityModel"/>
-    <Reference Include="Microsoft.Practices.ServiceLocation"/>
-    <Reference Include="Microsoft.WindowsAzure.Diagnostics"/>
-    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime"/>
-    <Reference Include="Microsoft.WindowsAzure.StorageClient"/>
-    <Reference Include="MySql.Data"/>
-    <Reference Include="Newtonsoft.Json"/>
-    <Reference Include="System.Windows"/>
-    <Reference Include="Telerik.OpenAccess.Web"/>
-    <Reference Include="Telerik.OpenAccess.Windows"/>
-    <Reference Include="Telerik.OpenAccess"/>
-    <Reference Include="Telerik.OpenAccess.35.Extensions"/>
-    <Reference Include="Telerik.OpenAccess.40.Extensions"/>
-    <Reference Include="Telerik.OpenAccess.Config"/>
-    <Reference Include="Telerik.OpenAccess.MySql.Data"/>
-    <Reference Include="Telerik.OpenAccess.Runtime"/>
-    <Reference Include="Telerik.OpenAccess.SDK"/>
-    <Reference Include="Telerik.Reporting"/>
-    <Reference Include="Telerik.Reporting.OpenXmlRendering"/>
-    <Reference Include="Telerik.Reporting.XpsRendering"/>
-    <Reference Include="Telerik.ReportViewer.WebForms"/>
-    <Reference Include="Telerik.Sitefinity"/>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.Core"/>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.DependencyResolution"/>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin"/>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.Infrastructure"/>
-    <Reference Include="Telerik.Sitefinity.ContentModules"/>
-    <Reference Include="Telerik.Sitefinity.Ecommerce"/>
-    <Reference Include="Telerik.Sitefinity.Forums"/>
-    <Reference Include="Telerik.Sitefinity.Migration"/>
-    <Reference Include="Telerik.Sitefinity.MigrationContracts"/>
-    <Reference Include="Telerik.Sitefinity.Model"/>
-    <Reference Include="Telerik.Sitefinity.Personalization"/>
-    <Reference Include="Telerik.Sitefinity.Personalization.Impl"/>
-    <Reference Include="Telerik.Sitefinity.PrecompiledTemplates"/>
-    <Reference Include="Telerik.Sitefinity.Resources"/>
-    <Reference Include="Telerik.Sitefinity.Search"/>
-    <Reference Include="Telerik.Sitefinity.Search.Impl"/>
-    <Reference Include="Telerik.Sitefinity.Services.Comments"/>
-    <Reference Include="Telerik.Sitefinity.Services.Comments.Impl"/>
-    <Reference Include="Telerik.Sitefinity.Services.Documents"/>
-    <Reference Include="Telerik.Sitefinity.Services.Documents.Impl"/>
-    <Reference Include="Telerik.Sitefinity.Services.Notifications"/>
-    <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl"/>
-    <Reference Include="Telerik.Sitefinity.Services.Statistics"/>
-    <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl"/>
-    <Reference Include="Telerik.Sitefinity.Thunder.Contracts"/>
-    <Reference Include="Telerik.Sitefinity.Thunder.Module"/>
-    <Reference Include="Telerik.Sitefinity.UI.MVC"/>
-    <Reference Include="Telerik.Sitefinity.Utilities"/>
-    <Reference Include="Telerik.Web.Design"/>
-    <Reference Include="Telerik.Web.Mvc"/>
-    <Reference Include="Telerik.Web.UI"/>
-    <Reference Include="Telerik.Web.UI.Skins"/>
-    <Reference Include="Telerik.Windows.RadUploadHandler"/>
-    <Reference Include="Twitterizer2"/>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\Reference Assemblies\AjaxControlToolkit.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DirectShowLib-2005">
+      <HintPath>..\Reference Assemblies\DirectShowLib-2005.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml">
+    <HintPath>..\Reference Assemblies\DocumentFormat.OpenXml.dll</HintPath>
+    <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Interop.DexterLib">
+      <HintPath>..\Reference Assemblies\Interop.DexterLib.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Http">
+      <HintPath>..\Reference Assemblies\Microsoft.Http.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Http.Extensions">
+      <HintPath>..\Reference Assemblies\Microsoft.Http.Extensions.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel">
+      <HintPath>..\Reference Assemblies\Microsoft.IdentityModel.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\Reference Assemblies\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics">
+      <HintPath>..\Reference Assemblies\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime">
+      <HintPath>..\Reference Assemblies\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.StorageClient">
+      <HintPath>..\Reference Assemblies\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Reference Assemblies\MySql.Data.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Reference Assemblies\Newtonsoft.Json.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="Telerik.OpenAccess.Web">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.Web.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Windows">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.Windows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.40.Extensions">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Config">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.Config.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.MySql.Data">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.MySql.Data.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.Runtime.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.SDK">
+      <HintPath>..\Reference Assemblies\Telerik.OpenAccess.SDK.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting">
+      <HintPath>..\Reference Assemblies\Telerik.Reporting.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.OpenXmlRendering">
+      <HintPath>..\Reference Assemblies\Telerik.Reporting.OpenXmlRendering.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.XpsRendering">
+      <HintPath>..\Reference Assemblies\Telerik.Reporting.XpsRendering.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms">
+      <HintPath>..\Reference Assemblies\Telerik.ReportViewer.WebForms.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Analytics.Server.Core">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Analytics.Server.Core.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Analytics.Server.DependencyResolution">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Analytics.Server.DependencyResolution.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Analytics.Server.Infrastructure">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.ContentModules">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.ContentModules.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Ecommerce">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Ecommerce.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Forums">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Forums.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Migration">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Migration.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.MigrationContracts">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.MigrationContracts.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Model.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Personalization">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Personalization.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Personalization.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.PrecompiledTemplates">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Resources.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Search.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Search.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Comments">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Comments.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Documents">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Documents.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Thunder.Contracts">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Thunder.Contracts.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Thunder.Module">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Thunder.Module.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.UI.MVC">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.UI.MVC.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\Reference Assemblies\Telerik.Sitefinity.Utilities.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\Reference Assemblies\Telerik.Web.Design.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Web.Mvc">
+      <HintPath>..\Reference Assemblies\Telerik.Web.Mvc.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\Reference Assemblies\Telerik.Web.UI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\Reference Assemblies\Telerik.Web.UI.Skins.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Windows.RadUploadHandler">
+      <HintPath>..\Reference Assemblies\Telerik.Windows.RadUploadHandler.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Twitterizer2">
+      <HintPath>..\Reference Assemblies\Twitterizer2.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
