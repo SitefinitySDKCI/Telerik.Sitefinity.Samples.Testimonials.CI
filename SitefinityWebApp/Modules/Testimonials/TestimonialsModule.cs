@@ -14,7 +14,7 @@ using SitefinityWebApp.Modules.Testimonials.Admin;
 
 namespace SitefinityWebApp.Modules.Testimonials
 {
-	private class TestimonialsModule : ModuleBase
+	private class TestimonialsModule : ModuleBase 
 	{
 		/// <summary>
 		/// Installs this module in Sitefinity system for the first time.
