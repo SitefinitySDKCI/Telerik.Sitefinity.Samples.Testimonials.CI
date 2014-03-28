@@ -20,7 +20,7 @@ namespace SitefinityWebApp.Modules.Testimonials
 		/// Installs this module in Sitefinity system for the first time.
 		/// </summary>
 		/// <param name="initializer">The Site Initializer. A helper class for installing Sitefinity modules.</param>
-		public override void Install(SiteInitializer initializer)
+		public override void Install(SiteInitializer initializer) 
 		{
 			#region Install Pages 
 			
