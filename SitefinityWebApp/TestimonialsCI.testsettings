@@ -2,6 +2,7 @@
 <TestSettings name="TestimonialsCI" id="dd738004-8f90-468b-ba09-5e762fc4c1c1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Description>These are default test settings for a local test run.</Description>
   <Deployment enabled="false" />
+  <NamingScheme baseName="testimonialsTests" useDefault="false" />
   <Execution hostProcessPlatform="MSIL">
     <Hosts>
       <AspNet name="ASP.NET" executionType="WebDev" />
