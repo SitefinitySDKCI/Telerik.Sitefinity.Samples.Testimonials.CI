@@ -1,0 +1,1268 @@
+----------------------------------------
+Timestamp: 02/26/2014 14:59:40
+
+Message: HandlingInstanceID: 95f80749-e8bc-45f4-9163-d166bfc7b02b
+An exception of type 'System.Configuration.ConfigurationErrorsException' occurred and was caught.
+-------------------------------------------------------------------------------------------------
+02/26/2014 16:59:40
+Type : System.Configuration.ConfigurationErrorsException, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Invalid root node configured for pages. No root node with the name of "00000000-0000-0000-0000-000000000000".
+Source : Telerik.Sitefinity
+Help link : 
+BareMessage : Invalid root node configured for pages. No root node with the name of "00000000-0000-0000-0000-000000000000".
+Filename : 
+Line : 0
+Errors : System.Configuration.ConfigurationException[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection)
+HResult : -2146232062
+Stack Trace :    at Telerik.Sitefinity.Web.SiteMapBase.Initialize(String name, NameValueCollection attributes)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 02/26/2014 14:59:40
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90020
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:40 PM
+
+Message: HandlingInstanceID: c9b1401f-1c22-44e2-b845-fe7f6f65b986
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:40
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeMethod.Execute()
+   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade(Int32 upgradeFrom)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.Configuration.ConfigurationErrorsException, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Invalid root node configured for pages. No root node with the name of "00000000-0000-0000-0000-000000000000".
+	Source : Telerik.Sitefinity
+	Help link : 
+	BareMessage : Invalid root node configured for pages. No root node with the name of "00000000-0000-0000-0000-000000000000".
+	Filename : 
+	Line : 0
+	Errors : System.Configuration.ConfigurationException[]
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection)
+	HResult : -2146232062
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_9d4301924a52492199e36b7e002bcc52.FlushTransaction()
+	   at Telerik.Sitefinity.Data.TransactionManager.FlushTransaction(String transactionName)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.FlushChanges()
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTo1107()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: 8bb671f8-13d5-4a29-89f7-ba2d0c1aa893
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Master.Definitions.MasterGridViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: 7faf6f89-0754-4d62-baf6-828b686066f2
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Master.Definitions.MasterGridViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: a484a0a8-bdf9-4729-b252-988164b48d23
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.Definitions.DetailFormViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: adf4dd8d-3717-4424-99ce-dfffdae1c482
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.Definitions.DetailFormViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: e1fbf83d-6e35-4352-a63b-d963aa4ff373
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.Definitions.DetailFormViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: 40d51085-611d-4435-af55-221a78d88954
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.Definitions.DetailFormViewDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: a5218a41-0248-4e21-92fb-e0ee631890f7
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: HandlingInstanceID: 75f2d010-07d2-4f71-be1a-87b1cc06758b
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 16:59:41
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'PolicyName' on object 'Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String get_PolicyName()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.DefinitionBase.get_PolicyName()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: HandlingInstanceID: 47653ed6-3be9-4a0c-a385-1b01725cc0ed
+An exception of type 'Telerik.OpenAccess.Exceptions.DuplicateKeyException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+02/26/2014 16:59:43
+Type : Telerik.OpenAccess.Exceptions.DuplicateKeyException, Telerik.OpenAccess, Version=2013.3.1211.3, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Insert of '1712689138-45fef908-af79-4568-b950-1d76768177ce' failed: Telerik.OpenAccess.RT.sql.SQLException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+INSERT INTO [sf_page_templates] ([description_], [keywords_], [title_], [app_name], [buffer_output], [cache_duration], [cache_output], [can_inherit_permissions], [category], [culture], [enable_event_validation], [enable_session_state], [enable_theming], [enable_view_state], [enable_view_state_mac], [error_page], [framework], [id], [include_script_manger], [inherits_permissions], [is_personalized], [ky], [last_control_id], [last_modified], [locked_by], [maintain_scroll], [master_page], [nme], [ordinal], [ownr], [prent_template_id], [personalization_master_id], [personalization_segment_id], [require_ssl], [response_encoding], [show_in_navigation], [sliding_expiration], [smart_navigation], [theme], [ui_culture], [validate_request], [vrsion], [view_state_encryption], [voa_version]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+(set event logging to all to see parameter values)
+Source : Telerik.Sitefinity
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : NewObjectOID@41bb590f class=PageTemplate id=33 realOID=1712689138-45fef908-af79-4568-b950-1d76768177ce
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Reason : DuplicateKey
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade(Int32 upgradeFrom)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 2:59:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2013.3.1211.3, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 2627
+	ArrayBindIndex : -1
+	Number : 2627
+	ObjectId : 
+	Description : Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 18db4302-ff32-49dd-af4f-58383d6aaf6c
+		Class : 14
+		LineNumber : 1
+		Number : 2627
+		Procedure : 
+		Server : .\SQLSERVER2008R2
+		State : 1
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+		   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+		   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+		   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+		   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+		   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+		   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+		   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+		   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+		   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+		   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+		   at System.Data.Common.DbCommand.ExecuteReader()
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:01 PM
+
+Message: HandlingInstanceID: c7be7380-ad9b-48fa-ad98-b458d30cf0b8
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+02/26/2014 17:00:01
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2013.3.1211.3, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : No metadata has been registered for class 'SitefinityWebApp.Modules.Testimonials.Data.Testimonial, SitefinityWebApp, Version=4.3.1873.0, Culture=neutral, PublicKeyToken=null'. (This usually indicates, that either this class is not declared persistent or it is declared persistent but not enhanced. The class was loaded from file:///C:/GitHub/Telerik.Sitefinity.Samples.Testimonials/SitefinityWebApp/bin/SitefinityWebApp.DLL.)
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : 
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.metadata.ClassMetaData.addError(ExceptionWrapper e, Boolean quiet)
+   at OpenAccessRuntime.metadata.MetaDataBuilder.buildMetaData(DataObjectsRoot[] roots, Boolean ignoreNoClasses)
+   at OpenAccessRuntime.Relational.RelationalMetaDataBuilder.buildMetaData(DataObjectsRoot[] roots, Boolean ignoreNoClasses)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.ReplaceMetadata(IObjectScope scope, DataObjectsRoot[] newMetadata, SchemaUpdateCallback callback, ConfigInfo config, SchemaUpdateArgsImp args)
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManagerFactory.ReplaceMetadata(IObjectScope scope, DataObjectsRoot[] newMetadata, SchemaUpdateCallback callback, ConfigInfo config, SchemaUpdateArgsImp args)
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryBase.ReplaceMetadata(IObjectScope scope, DataObjectsRoot[] roots, SchemaUpdateCallback callback, SchemaUpdateArgsImp args)
+   at OpenAccessRuntime.DatabaseAdapter.ReplaceMetadata(IObjectScope scope, MetadataContainer newMetadata, SchemaUpdateCallback callback)
+   at Telerik.OpenAccess.Database.ReplaceMetadata(IObjectScope scope, MetadataContainer newMetadata, SchemaUpdateCallback callback)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.OptimizedMetadataUpdateStrategy.ReplaceMetadata(OpenAccessConnection connection, MetadataContainer newMetadataContainer, String moduleName, ISitefinityMetadataSource sitefinityMetaDataSource, IOpenAccessMetadataProvider provider)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpdateMetadata(MetadataSource metadataSource, String moduleName, IOpenAccessMetadataProvider provider)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.Extend(MetadataSource metadataSource, String moduleName, IOpenAccessMetadataProvider provider, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.RegisterProvider(IOpenAccessMetadataProvider provider, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetContext(IOpenAccessMetadataProvider provider)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetContext(IOpenAccessMetadataProvider provider, String connectionName, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetContext(IOpenAccessMetadataProvider provider, String connectionName)
+   at SitefinityWebApp.Modules.Testimonials.Data.TestimonialsContext.Get() in c:\GitHub\Telerik.Sitefinity.Samples.Testimonials\SitefinityWebApp\Modules\Testimonials\Data\TestimonialsContext.cs:line 17
+   at SitefinityWebApp.Modules.Testimonials.Admin.TestimonialsAdminView..ctor() in c:\GitHub\Telerik.Sitefinity.Samples.Testimonials\SitefinityWebApp\Modules\Testimonials\Admin\TestimonialsAdminView.ascx.cs:line 15
+   at ASP.modules_testimonials_admin_testimonialsadminview_ascx..ctor()
+   at __ASP.FastObjectFactory_app_web_cyteh1rg.Create_ASP_modules_testimonials_admin_testimonialsadminview_ascx()
+   at System.Web.Compilation.BuildResultCompiledType.CreateInstance()
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Modules.ControlManager`1.CreateControl[T](String controlPath, String placeHolder, Boolean isBackendObject)
+   at SitefinityWebApp.Modules.Testimonials.TestimonialsModule.Install(SiteInitializer initializer) in c:\GitHub\Telerik.Sitefinity.Samples.Testimonials\SitefinityWebApp\Modules\Testimonials\TestimonialsModule.cs:line 35
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipLoading)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 3:00:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/default.aspx
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:05 PM
+
+Message: HandlingInstanceID: cd9243f8-2dfe-430e-9fb8-3396f04b1e2d
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 17:00:05
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'Title' on object 'Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel' threw the following exception:'Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 3:00:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/
+	Inner Exception
+	---------------
+	Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+	Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+
+	Source : Telerik.Sitefinity.Utilities
+	Help link : 
+	TypeRequested : NewslettersResources
+	NameRequested : NewslettersResources
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, String name, ResolverOverride[] overrides)
+	   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve[T](String name)
+	   at Telerik.Sitefinity.Localization.Res.Get[T]()
+	   at Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel.get_Title()
+
+		Inner Exception
+		---------------
+		Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+		Source : Telerik.Sitefinity.Utilities
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void GuardTypeIsNonPrimitive(Telerik.Microsoft.Practices.ObjectBuilder2.IBuilderContext, Telerik.Microsoft.Practices.ObjectBuilder2.SelectedConstructor)
+		HResult : -2146233079
+		Stack Trace :    at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuilderContext.NewBuildUp(NamedTypeBuildKey newBuildKey)
+		   at Telerik.Microsoft.Practices.Unity.ObjectBuilder.NamedTypeDependencyResolverPolicy.Resolve(IBuilderContext context)
+		   at BuildUp_Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(IBuilderContext )
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:05 PM
+
+Message: HandlingInstanceID: 9b53ace0-64b3-4161-82f3-631107de5115
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 17:00:05
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'Title' on object 'Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel' threw the following exception:'Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 3:00:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/
+	Inner Exception
+	---------------
+	Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+	Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+
+	Source : Telerik.Sitefinity.Utilities
+	Help link : 
+	TypeRequested : NewslettersResources
+	NameRequested : NewslettersResources
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, String name, ResolverOverride[] overrides)
+	   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve[T](String name)
+	   at Telerik.Sitefinity.Localization.Res.Get[T]()
+	   at Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel.get_Title()
+
+		Inner Exception
+		---------------
+		Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+		Source : Telerik.Sitefinity.Utilities
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void GuardTypeIsNonPrimitive(Telerik.Microsoft.Practices.ObjectBuilder2.IBuilderContext, Telerik.Microsoft.Practices.ObjectBuilder2.SelectedConstructor)
+		HResult : -2146233079
+		Stack Trace :    at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuilderContext.NewBuildUp(NamedTypeBuildKey newBuildKey)
+		   at Telerik.Microsoft.Practices.Unity.ObjectBuilder.NamedTypeDependencyResolverPolicy.Resolve(IBuilderContext context)
+		   at BuildUp_Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(IBuilderContext )
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:05 PM
+
+Message: HandlingInstanceID: 8db85fd2-c59c-486c-b183-28eb06c91ff7
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/26/2014 17:00:05
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'Title' on object 'Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel' threw the following exception:'Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 3:00:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/
+	Inner Exception
+	---------------
+	Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+	Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Newsletters.NewslettersResources", name = "NewslettersResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Newsletters.NewslettersResources,NewslettersResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+
+	Source : Telerik.Sitefinity.Utilities
+	Help link : 
+	TypeRequested : NewslettersResources
+	NameRequested : NewslettersResources
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, String name, ResolverOverride[] overrides)
+	   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve[T](String name)
+	   at Telerik.Sitefinity.Localization.Res.Get[T]()
+	   at Telerik.Sitefinity.Modules.Newsletters.Web.UI.NewslettersControlPanel.get_Title()
+
+		Inner Exception
+		---------------
+		Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+		Source : Telerik.Sitefinity.Utilities
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void GuardTypeIsNonPrimitive(Telerik.Microsoft.Practices.ObjectBuilder2.IBuilderContext, Telerik.Microsoft.Practices.ObjectBuilder2.SelectedConstructor)
+		HResult : -2146233079
+		Stack Trace :    at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuilderContext.NewBuildUp(NamedTypeBuildKey newBuildKey)
+		   at Telerik.Microsoft.Practices.Unity.ObjectBuilder.NamedTypeDependencyResolverPolicy.Resolve(IBuilderContext context)
+		   at BuildUp_Telerik.Sitefinity.Modules.Newsletters.NewslettersResources(IBuilderContext )
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+		   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:7592
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:41 PM
+
+Message: HandlingInstanceID: 1cbc8401-5bf7-4cdb-8b6e-a3f8b6f25819
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/26/2014 17:00:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MILCHEVA
+TimeStamp : 2/26/2014 3:00:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.3.5000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 3f428322-1-130379003660288024
+ThreadIdentity : 
+WindowsIdentity : TELERIK\milcheva
+Requested URL : http://localhost:40869/favicon.ico
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MILCHEVA
+
+App Domain: 3f428322-1-130379003660288024
+
+ProcessId: 7788
+
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\11.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:5980
+
+Extended Properties: 
+----------------------------------------

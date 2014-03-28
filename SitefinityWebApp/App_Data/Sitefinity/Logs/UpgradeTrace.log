@@ -1,0 +1,404 @@
+----------------------------------------
+Timestamp: 2/26/2014 2:59:39 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1106 (Upgrade backend pages accessible to all in Backend role)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:40 PM
+
+Message: FAILED : SiteInitializer: Upgrade to 1107 (method: UpgradeTo1107) - Exception has been thrown by the target of an invocation.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:40 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1108 (method: UpgradeTo1108)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:40 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1109 (method: UpgradeTo1109)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1136 (method: UpgradeTo1136)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1166 (method: UpgradeTo1166)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1215 (method: UpgradeTo1215)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1251 (method: UpgradeTo1251)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1270 (method: UpgradeTo1270)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:41 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1299 (method: UpgradeTo1299)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1300 (Create profile types page and default user profiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1340 (method: UpgradeTo1340)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1341 (method: UpgradeTo1341)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1362 (method: UpgradeTo1362)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1395 (method: UpgradeTo1395)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1547 (method: UpgradeTo1547)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1600 (method: UpgradeAnyVersionBefore42_MakeSureOnlyDesignersHaveAccessToPageTemplates)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1600 (method: UpgradeLifecycle)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:42 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1600 (method: UpgradeBackendPages_AddHelpAndResourcesPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1700 (method: UpgradeTo1700_FixPublishingPoinItemsContentDynamicLinks)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1700 (method: UpgradeTaxonomyUIDefaultPermissions)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 1700 (method: UpgradeTaxonomyUIToUseDefinitions)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: FAILED : SiteInitializer: Upgrade to 2080 (method: UpgradeTo2080_Adding_the_NewTemplates) - Insert of '1712689138-45fef908-af79-4568-b950-1d76768177ce' failed: Telerik.OpenAccess.RT.sql.SQLException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'pk_sf_page_templates'. Cannot insert duplicate key in object 'dbo.sf_page_templates'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+INSERT INTO [sf_page_templates] ([description_], [keywords_], [title_], [app_name], [buffer_output], [cache_duration], [cache_output], [can_inherit_permissions], [category], [culture], [enable_event_validation], [enable_session_state], [enable_theming], [enable_view_state], [enable_view_state_mac], [error_page], [framework], [id], [include_script_manger], [inherits_permissions], [is_personalized], [ky], [last_control_id], [last_modified], [locked_by], [maintain_scroll], [master_page], [nme], [ordinal], [ownr], [prent_template_id], [personalization_master_id], [personalization_segment_id], [require_ssl], [response_encoding], [show_in_navigation], [sliding_expiration], [smart_navigation], [theme], [ui_culture], [validate_request], [vrsion], [view_state_encryption], [voa_version]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+(set event logging to all to see parameter values)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 2137 (method: UpgradeUserProfiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 2137 (method: UpgradeTo2137_AddBackendLoginPages)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 2171 (method: UpgradeTo2171RecalculatingCategoryOrdinals)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 2325 (method: UpgradeTo2325)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3001 (After upgrading, we set the invariant page node extension to all translations)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3040 (method: AddModulesAndServicesBackendPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3040 (method: FixDecoupledModulesCustomTemplates)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3040 (method: UpgradeModuleNameForBackendPages)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3040 (method: FixDecoupledModulesControls)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3595 (method: AddMarketingBackendPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3595 (method: InstallDefaultSiteSettings)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3595 (method: UpgradeMainMenuControl)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3701 (method: UpgradeTo3701)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3710 (method: Upgrade_SetAllowedPageExtensions)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 3860 (method: FixContentBlockControlsAfterUpgradeTo_5_3)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:43 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4100 (method: AddContentLocationsBackendPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4100 (method: ReorderAdminMenu_6_0)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4200 (method: UpgradeBackendTemplatesRemoveIE8Compatibility)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4300 (method: Upgrade_InitializeNavigationWidgetTemplates)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4701 (method: AddDiscussionsGroupPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4900 (method: AddDashboardGroupPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED: Delete orphaned additional URL: '~/dashboard'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED: Delete orphaned additional URL: '~/Sitefinity/legacy-dashboard'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : Clean duplicated and orhaned additional URLs - 2 duplicated or orphaned additional URLs have been deleted
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4913 (Clean duplicated and orhaned additional URLs)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 2:59:44 PM
+
+Message: PASSED : SiteInitializer: Upgrade to 4913 (method: UpdateOpenHomeAsSiteRootSetting)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:01 PM
+
+Message: PASSED : Scheduling task for updating content locations
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:01 PM
+
+Message: PASSED : Scheduling task for optimizing controls properties
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:03 PM
+
+Message: PASSED : Updating content locations service
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:03 PM
+
+Message: Staring controls properties optimization task
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/26/2014 3:00:05 PM
+
+Message: PASSED : Optimizing control properties persistance, by reducing number of persisted properties
+
+
+----------------------------------------
