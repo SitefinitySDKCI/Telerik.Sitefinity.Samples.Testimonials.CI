@@ -1,0 +1,5 @@
+C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitMSTest\bin\Debug\TestimonialsUnitMSTest.dll
+C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitMSTest\bin\Debug\TestimonialsUnitMSTest.pdb
+C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitMSTest\obj\Debug\TestimonialsUnitMSTest.csprojResolveAssemblyReference.cache
+C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitMSTest\obj\Debug\TestimonialsUnitMSTest.dll
+C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitMSTest\obj\Debug\TestimonialsUnitMSTest.pdb
