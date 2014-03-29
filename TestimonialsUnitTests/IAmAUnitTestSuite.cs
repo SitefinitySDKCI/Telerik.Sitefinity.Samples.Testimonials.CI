@@ -28,6 +28,13 @@ namespace TestimonialsUnitTests
         [Author("Doge")]
         public static void IAmAFailingUnitTest()
         {
+            Assert.IsTrue(1 == 2);
+        }
+
+        [Test]
+        [Author("Doge")]
+        public static void IAmAFailingUnitTestThatWork()
+        {
             Assert.IsTrue(1 == 1);
         }
     }
