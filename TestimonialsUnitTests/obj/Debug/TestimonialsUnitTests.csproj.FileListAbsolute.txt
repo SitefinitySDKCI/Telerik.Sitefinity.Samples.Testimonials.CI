@@ -1,8 +1,0 @@
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\bin\Debug\TestimonialsUnitTests.dll
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\bin\Debug\TestimonialsUnitTests.pdb
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\bin\Debug\Gallio.dll
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\bin\Debug\MbUnit.dll
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\bin\Debug\NHamcrest.dll
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\obj\Debug\TestimonialsUnitTests.csprojResolveAssemblyReference.cache
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\obj\Debug\TestimonialsUnitTests.dll
-C:\GitHub\Telerik.Sitefinity.Samples.Testimonials.CI\TestimonialsUnitTests\obj\Debug\TestimonialsUnitTests.pdb
