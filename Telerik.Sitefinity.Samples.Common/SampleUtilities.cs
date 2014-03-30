@@ -63,7 +63,7 @@ using Telerik.Sitefinity.Web.UI.ContentUI.Config;
 using Telerik.Sitefinity.Services.Comments;
 using Telerik.Sitefinity.Services.Comments.Proxies;
 
-namespace Telerik.Sitefinity.Samples.Common 
+namespace Telerik.Sitefinity.Samples.Common  
 {
     public class SampleUtilities
     {
