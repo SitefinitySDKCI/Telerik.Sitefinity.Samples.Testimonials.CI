@@ -65,7 +65,7 @@ using Telerik.Sitefinity.Services.Comments.Proxies;
 
 namespace Telerik.Sitefinity.Samples.Common
 {
-    public class SampleUtilities
+    private class SampleUtilities
     {
         public const string UrlNameCharsToReplace = @"[^\w\-\!\$\'\(\)\=\@\d_]+";
 
