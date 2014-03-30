@@ -54,7 +54,16 @@ namespace SitefinityWebApp
             {
                 SystemManager.RunWithElevatedPrivilegeDelegate worker = new SystemManager.RunWithElevatedPrivilegeDelegate(CreateSampleWorker);
                 SystemManager.RunWithElevatedPrivilege(worker);
+                this.AddValueToBigList(1);
             }
+        }
+
+        //This method is intended to test CI with Jenkins for assemblies that require NuGet packages
+        private void AddValueToBigList(int item)
+        {
+            var list = new Wintellect.PowerCollections.BigList<T>();
+            list.Add(item);
+            list.Clear();
         }
 
         private void CreateSampleWorker(object[] args)
