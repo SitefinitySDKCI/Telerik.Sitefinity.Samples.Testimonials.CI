@@ -54,7 +54,7 @@ namespace SitefinityWebApp
             {
                 SystemManager.RunWithElevatedPrivilegeDelegate worker = new SystemManager.RunWithElevatedPrivilegeDelegate(CreateSampleWorker);
                 SystemManager.RunWithElevatedPrivilege(worker);
-                this.AddValueToBigList(1);
+                this.BreakingTheBuild(1);
             }
         }
 
