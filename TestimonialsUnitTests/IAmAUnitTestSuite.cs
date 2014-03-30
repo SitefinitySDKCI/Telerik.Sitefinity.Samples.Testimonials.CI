@@ -17,7 +17,7 @@ namespace TestimonialsUnitTests
             Assert.IsFalse(1 == 2);
         }
 
-        [Test] 
+        [Test]  
         [Author("Doge")]
         public static void IAmNotAFailingUnitTest()
         {
