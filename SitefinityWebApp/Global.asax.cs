@@ -61,7 +61,7 @@ namespace SitefinityWebApp
         //This method is intended to test CI with Jenkins for assemblies that require NuGet packages
         private void AddValueToBigList(int item)
         {
-            var list = new Wintellect.PowerCollections.BigList<T>();
+            var list = new Wintellect.PowerCollections.BigList<int>();
             list.Add(item);
             list.Clear();
         }
