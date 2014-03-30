@@ -24,12 +24,12 @@ namespace TestimonialsUnitTests
             Assert.IsTrue(1 == 1);
         }
 
-        //[Test]
-        //[Author("Doge")]
-        //public static void IAmAFailingUnitTest()
-        //{
-        //    Assert.IsTrue(1 == 2);
-        //}
+        [Test]
+        [Author("Doge")]
+        public static void IAmAFailingUnitTest()
+        {
+            Assert.IsTrue(1 == 2);
+        }
 
         [Test]
         [Author("Doge")]
