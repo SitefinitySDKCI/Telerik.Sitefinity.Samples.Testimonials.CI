@@ -66,11 +66,18 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="payflow_dotNET">
       <HintPath>..\..\..\..\..\Common\Dependencies\payflow_dotNET.dll</HintPath>
     </Reference>
     <Reference Include="PowerCollections">
       <HintPath>packages\XAct.Wintellect.PowerCollections.0.0.1\lib\net20\PowerCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Activities" />
@@ -139,10 +146,6 @@
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\Reference Assemblies\MySql.Data.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\Reference Assemblies\Newtonsoft.Json.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="Telerik.OpenAccess.Web">
@@ -332,6 +335,9 @@
     <Reference Include="Telerik.Windows.RadUploadHandler">
       <HintPath>..\Reference Assemblies\Telerik.Windows.RadUploadHandler.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TrelloNet">
+      <HintPath>packages\TrelloNet.0.6.1\lib\net40-Client\TrelloNet.dll</HintPath>
     </Reference>
     <Reference Include="Twitterizer2">
       <HintPath>..\Reference Assemblies\Twitterizer2.dll</HintPath>

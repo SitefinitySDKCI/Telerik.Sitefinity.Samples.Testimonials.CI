@@ -55,6 +55,7 @@ namespace SitefinityWebApp
                 SystemManager.RunWithElevatedPrivilegeDelegate worker = new SystemManager.RunWithElevatedPrivilegeDelegate(CreateSampleWorker);
                 SystemManager.RunWithElevatedPrivilege(worker);
                 this.AddValueToBigList(1);
+                this.CreateTrelloCard();
             }
         }
 
@@ -64,6 +65,15 @@ namespace SitefinityWebApp
             var list = new Wintellect.PowerCollections.BigList<int>();
             list.Add(item);
             list.Clear();
+        }
+
+        //This method is intended to test CI with Jenkins for assemblies that require NuGet packages
+        private void CreateTrelloCard()
+        {
+            var card = new TrelloNet.Card();
+            card.Name = "My trello card";
+            card.Id = Guid.NewGuid().ToString();
+
         }
 
         private void CreateSampleWorker(object[] args)
