@@ -1,9 +1,11 @@
 ﻿using MbUnit.Framework;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Telerik.JustMock;
 
 namespace TestimonialsUnitTests
 {
@@ -36,6 +38,15 @@ namespace TestimonialsUnitTests
         public static void IAmAFailingUnitTestThatWork()
         {
             Assert.IsTrue(1 == 1);
+        }
+
+        [Test]
+        [Author("DogeMock")]
+        public static void IAmAPassingJustMockUnitTest()
+        {
+            var list = Mock.Create<IList>();
+            Mock.Arrange(() => list.Count).Returns(3);
+            Mock.Assert(list);
         }
     }
 }
